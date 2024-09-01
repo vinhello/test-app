@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Meme Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="refresh" content="30;url=http://127.0.0.1:5000/">
+        <style>
+            body {
+                background-color: #f1f1f1;
+                font-family: Arial, sans-serif;
+            }
+            .content {
+                max-width: 800px;
+                margin: auto;
+                padding: 10px;
+                background: white;
+            }
+            .header {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+            }
+            .footer {
+                background-color: #f1f1f1;
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>A website to gather some memes!</h1>
+        <p>Here is your meme! This will refresh in 30 seconds!</p>
+        <p><img src="{{meme_pic}}"></p>
+        <p>Current subreddit: {{subreddit}} </p>
+    </body>
+</html>
